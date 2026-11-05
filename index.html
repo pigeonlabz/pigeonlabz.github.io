@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10101b">
+  <meta name="description" content="Pigeon Labs - small tools, useful projects, and questionable ideas.">
+  <title>Pigeon Labs | Projects</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(ellipse at top, #30204c, #10101b 65%);
+      color: #f3f0ff;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 90px 24px 48px;
+    }
+
+    header { margin-bottom: 48px; }
+
+    .eyebrow {
+      color: #c5a8ff;
+      font-size: 0.85rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    h1 {
+      font-size: clamp(2.8rem, 8vw, 5rem);
+      margin: 12px 0;
+      letter-spacing: -0.05em;
+    }
+
+    .intro {
+      color: #c5bed3;
+      max-width: 550px;
+      line-height: 1.7;
+    }
+
+    h2 { font-size: 1.15rem; }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #201b30;
+      border: 1px solid #433554;
+      border-radius: 16px;
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .card:hover {
+      border-color: #b28aff;
+      transform: translateY(-3px);
+    }
+
+    .emoji { font-size: 2rem; }
+
+    .card h3 {
+      margin: 18px 0 8px;
+      font-size: 1.35rem;
+    }
+
+    .card p {
+      color: #c5bed3;
+      line-height: 1.6;
+      flex-grow: 1;
+    }
+
+    .link {
+      display: inline-block;
+      align-self: flex-start;
+      color: #d5baff;
+      font-weight: 700;
+      text-decoration: none;
+      margin-top: 12px;
+    }
+
+    .link:hover { text-decoration: underline; }
+
+    .link:focus-visible {
+      outline: 2px solid #d5baff;
+      outline-offset: 5px;
+    }
+
+    footer {
+      margin-top: 70px;
+      border-top: 1px solid #433554;
+      padding-top: 24px;
+      color: #a9a0ba;
+      font-size: 0.85rem;
+    }
+
+    footer a { color: #c5a8ff; }
+
+    @media (max-width: 600px) {
+      main { padding-top: 55px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">Independent projects & experiments</div>
+      <h1>🐦 Pigeon Labs</h1>
+      <p class="intro">
+        Small tools, useful projects, and occasionally questionable ideas.
+        Built for fun, curiosity, and solving problems that probably
+        didn't need solving.
+      </p>
+    </header>
+
+    <section aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+
+      <div class="projects">
+        <article class="card">
+          <div class="emoji" aria-hidden="true">🎲</div>
+          <h3>GBL Randomiser</h3>
+          <p>
+            Make Pokémon GO battles with friends a little more chaotic.
+            Generate random restrictions, themed cups, and copyable
+            in-game search filters.
+          </p>
+          <a class="link" href="https://pigeonlabz.github.io/gbl-randomiser/">
+            Launch GBL Randomiser ↗
+          </a>
+        </article>
+
+        <article class="card">
+          <div class="emoji" aria-hidden="true">🏆</div>
+          <h3>Showcase Helper</h3>
+          <p>
+            Estimate Pokémon GO Showcase scores from screenshots,
+            compare your Pokémon, and find your strongest contenders.
+          </p>
+          <a class="link" href="https://pigeonlabz.github.io/showcase-helper/">
+            Launch Showcase Helper ↗
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      © Pigeon Labs · Built with curiosity and caffeine.
+      <p>
+        <a href="https://github.com/pigeonlabz">Find us on GitHub</a>
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
