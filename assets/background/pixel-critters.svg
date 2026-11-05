@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="224" height="224" viewBox="0 0 224 224" fill="none">
+  <!-- Original, abstract pixel sprites: little game-like shapes, not character art. -->
+  <g fill="#c39be0">
+    <!-- Floating puff with an offset trail -->
+    <path d="M30 24h8v8h8v8h8v8h-8v8h-8v8h-8v8h-8v-8h-8v-8h-8v-8h8v-8h8v-8h8z"/>
+    <path d="M54 48h8v8h-8zM62 56h8v8h-8z" fill="#8970a6"/>
+    <path d="M30 43h3v3h-3zM42 43h3v3h-3z" fill="#24192e"/>
+    <path d="M32 53h11v3H32z" fill="#24192e"/>
+
+    <!-- Tiny orbiting shards -->
+    <path d="M157 27h7v7h7v7h-7v7h-7v-7h-7v-7h7z" fill="#8dbbc4"/>
+    <path d="M190 70h5v5h5v5h-5v5h-5v-5h-5v-5h5z" fill="#c39be0"/>
+    <path d="M102 92h4v12h-4zM98 96h12v4H98z" fill="#8dbbc4"/>
+
+    <!-- Lopsided stone stack, assembled from simple blocks -->
+    <path d="M150 105h8v-8h16v8h8v8h8v8h8v16h-8v8h-8v8h-32v-8h-8v-8h-8v-16h8v-8h8z" fill="#8dbbc4"/>
+    <path d="M150 121h8v8h-8zM174 121h8v8h-8z" fill="#24192e"/>
+    <path d="M157 137h16v4h-16z" fill="#426c78"/>
+    <path d="M143 113h8v8h-8zM182 143h8v8h-8z" fill="#668d98"/>
+
+    <!-- Sleepy crescent pebble -->
+    <path d="M40 142h8v-8h16v8h8v8h8v16h-8v8h-8v8H48v-8h-8v-8h-8v-16h8z" fill="#8970a6"/>
+    <path d="M48 157h4v3h-4zM63 157h4v3h-4z" fill="#24192e"/>
+    <path d="M49 169h17v4H49z" fill="#574568"/>
+    <path d="M25 153h7v7h-7zM73 181h7v7h-7z" fill="#c39be0"/>
+
+    <!-- Sparse dots give the repeat a little breathing room -->
+    <path d="M112 30h5v5h-5zM120 38h5v5h-5zM105 43h4v4h-4z" fill="#8970a6"/>
+    <path d="M107 188h7v7h-7zM115 196h4v4h-4z" fill="#8dbbc4"/>
+    <path d="M197 174h5v5h-5zM189 182h4v4h-4z" fill="#8970a6"/>
+  </g>
+</svg>
